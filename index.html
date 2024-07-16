@@ -16,18 +16,29 @@
             <h1>My learning journal</h1>
         </div>
         <nav>
-            <a href="#">HOME</a>
-            <a href="#">ABOUT ME</a>
+            <a href="index.html">HOME</a>
+            <a href="about_me.html">ABOUT ME</a>
         </nav>
     </header>
     <main>
         <section class="hero">
             <div class="hero-content">
                 <p class="date">JULY 23, 2022</p>
-                <h2>My new journey as a bootcamp student.</h2>
+                <a href="main_article.html" class="hero-link">
+                    <h2>My new journey as a bootcamp student.</h2>
+                </a>
                 <p>After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
             </div>
         </section>
+        <section class="blog-posts" id="blogPosts">
+            <!-- Blog posts will be dynamically added here -->
+        </section>
+        <button id="viewMore" class="view-more">View More</button>
     </main>
+    <footer>
+        <p>&copy; 2024 My Learning Journal</p>
+    </footer>
+    <script src="js/blog_posts.js" type="module"></script>
+    <script src="js/main.js" type="module"></script>
 </body>
 </html>
