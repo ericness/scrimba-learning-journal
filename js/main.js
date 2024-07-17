@@ -1,6 +1,6 @@
 import { blogPosts } from './blog_posts.js';
 
-const blogPostsContainer = document.getElementById('blogPosts');
+const blogPostsContainer = document.getElementById('blogPostGrid');
 const viewMoreButton = document.getElementById('viewMore');
 let displayedPosts = 3;
 
